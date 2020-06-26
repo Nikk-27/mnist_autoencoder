@@ -1,0 +1,2 @@
+# mnist_autoencoder
+This is a autoencoder formed on the mnist (handwritten digits dataset). To add some amount of noise I have added a gaussian layer in between the CNN layers. For initial training CNN layers are used. For tuning the model I have freezed the initial layers and then trained just the last two layers (flatten and softmax). Then again trained the model combining the initial layers and the last two layers. 
