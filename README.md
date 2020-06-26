@@ -8,3 +8,5 @@ In the training.py file I have added code to save the weights only in the last a
 If still you don't understand how to do this mail me I'll help you out. I personally didn't train my whole model in one go I trained it in 4 days as I was training it on cpu. 
  
 Callbacks are a way to see the model performance if its overfitting or underfitting and also to save weights after certain duration so that if somehow your training stops midway, you have your last weights to start the training again from the last checkpoint and not from the start again.
+
+I have added a .ipynb file name View_Autoencoder_results.ipynb to only view your results, as I was training in my local system and matplotlib doesn't show results in terminal, so this file will help your to see your results in jupyter notebook.
